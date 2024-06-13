@@ -22,8 +22,10 @@ For classification, we utilized a range of machine learning models, including De
 
 ## Validation & Results
 We not only used various machine learning models to classify the three types of emotions in the SEED dataset but also incorporated two deep learning models, CNN and LSTM, into our exploration. Additionally, we used ICA to denoise the data, making it easier to process and increasing the likelihood of successful classification. This approach aims to enhance the effectiveness of the models during training.
-![image](RESULT.jpg)
 
+<p align="center">
+![image](RESULT.jpg)
+</p>
 
 ## References
 1. Wei-Long Zheng, and Bao-Liang Lu, Investigating Critical Frequency Bands and Channels for EEG-based Emotion Recognition with Deep Neural Networks, accepted by IEEE Transactions on Autonomous Mental Development (IEEE TAMD) 7(3): 162-175, 2015. [link] [BibTex]
