@@ -1,5 +1,8 @@
 # Distinguishing Three Emotional States: Neutral, Positive, and Negative
 
+## Oral Presentation
+https://drive.google.com/file/d/1tKeTU81VHoNAHbgNbtaLcQ-f7rr72FQt/view?usp=drive_link
+
 ## Introduction
 We aim to explore emotion classification through a brain-computer interface system using the SEED dataset. The SEED dataset categorizes emotions into three types: neutral, positive, and negative. In the data preprocessing phase, we apply a bandpass filter and ASR to filter the data, and use ICA to reduce the number of channels and remove noise. We then process the SEED dataset using several machine learning and deep learning models: Decision Tree, Gaussian, KNN, Random Forest, Linear SVM, CNN, RNN, and LSTM. The performance of these models is evaluated based on three metrics: precision, recall, and accuracy. Ultimately, we identify the model that best distinguishes between the three types of emotions.
 
