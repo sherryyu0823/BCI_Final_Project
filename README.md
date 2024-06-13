@@ -54,7 +54,7 @@ We not only used various machine learning models to classify the three types of 
 ## Usage
 ### 1. Run ICA
 
-Run the MATLAB code in the `ICA` folder and download the sample dataset [here](https://drive.google.com/drive/folders/1UPe9xLL4GehK5RHEADTeBqQXAov-Wmnm?usp=drive_link) to run the file titled ˋICLabel_ASR.mˋ.  
+Run the MATLAB code in the `ICA` folder and download the sample dataset [here](https://drive.google.com/drive/folders/1UPe9xLL4GehK5RHEADTeBqQXAov-Wmnm?usp=drive_link) to run the file titled `ICLabel_ASR.m`.  
 The sample dataset has already undergone ICA, so it can directly perform ICLabel."  
 * ˋICA_preprocessed.mˋ performs ICA on raw data (.cnt) and converts it to .set format. The raw data is too large to be upload, so we use the sample dataset that has been processed by ˋICA_preprocessed.mˋ here.
 ## References
