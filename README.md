@@ -24,7 +24,7 @@ For classification, we utilized a range of machine learning models, including De
 We not only used various machine learning models to classify the three types of emotions in the SEED dataset but also incorporated two deep learning models, CNN and LSTM, into our exploration. Additionally, we used ICA to denoise the data, making it easier to process and increasing the likelihood of successful classification. This approach aims to enhance the effectiveness of the models during training.
 
 <p align="center">
-   <img src="[https://via.placeholder.com/150](https://github.com/sherryyu0823/BCI_Final_Project/blob/main/RESULT.jpg)" alt="Result" />
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/RESULT.jpg" alt="Result" />
 </p>
 
 ## References
