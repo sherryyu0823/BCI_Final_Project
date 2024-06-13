@@ -74,7 +74,7 @@ The sample dataset has already undergone ICA, so it can directly perform ICLabel
 * **`ICA_preprocessed.m`** performs ICA on raw data (.cnt) and converts it to .set format. The raw data is too large to be upload, so we use the sample dataset that has been processed by **`ICA_preprocessed.m`** here.
 
 ### 2. Classifier and DL Model
-* Run **`classifier.ipynb`** directly to see the detailed results performed by the five classifiers: Decision Tree, Gaussian, K-Nearest Neighbors (KNN), Random Forest, and Linear Support Vector Machine (SVM).
+* Run **`classifier.ipynb`** directly to see the detailed results performed by the four classifiers: Decision Tree, Gaussian, K-Nearest Neighbors (KNN), Random Forest, and Linear Support Vector Machine (SVM).
 * Run **`main.ipynb`** to see the comparative results of the five classifiers and three deep learning methods: CNN, RNN, and LSTM.
 ## References
 1. Wei-Long Zheng, and Bao-Liang Lu, Investigating Critical Frequency Bands and Channels for EEG-based Emotion Recognition with Deep Neural Networks, accepted by IEEE Transactions on Autonomous Mental Development (IEEE TAMD) 7(3): 162-175, 2015. [link] [BibTex]
