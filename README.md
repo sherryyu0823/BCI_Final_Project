@@ -10,7 +10,7 @@ This experiment was designed as a visual stimulation study using fifteen Chinese
 EEG signals and eye movements were collected with the 62-channel ESI NeuroScan System and SMI eye-tracking glasses. The experimental scene and the corresponding EEG electrode placement are shown in the following figures.The EEG cap according to the international 10 - 20 system for 62 channels is shown below:
 
 <p align="center">
-   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/RESULT.jpg"/>
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/channels.jpg"/>
 </p>
 
 ### Subjects
