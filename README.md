@@ -50,6 +50,17 @@ We not only used various machine learning models to classify the three types of 
 <p align="center">
    <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/RESULT.jpg"/>
 </p>
+| Classifier/Method         | Accuracy |
+|---------------------------|----------|
+| Decision Tree             | 0.604387 |
+| Random Forest             | 0.761902 |
+| Support Vector Machine    | 0.725935 |
+| KNN                       | 0.690049 |
+| Gaussian Naive Bayes      | 0.454741 |
+| CNN                       | 0.718730 |
+| RNN                       | 0.317197 |
+| LSTM                      | 0.343208 |
+
 
 ## Usage
 ### 1. Run ICA
