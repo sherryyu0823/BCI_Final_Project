@@ -1,0 +1,8 @@
+Row,Raw,Filtered,ASR_Corrected
+Brain,2,19,5
+Muscle,0,1,1
+Eye,0,1,0
+Heart,118,12,0
+Line Noise,0,0,0
+Channel Noise,2,1,0
+Other,6,8,26
