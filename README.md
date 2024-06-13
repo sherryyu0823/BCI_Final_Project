@@ -61,6 +61,9 @@ We not only used various machine learning models to classify the three types of 
 | CNN                       | 0.718730 |
 | RNN                       | 0.317197 |
 | LSTM                      | 0.343208 |
+<p align="center">
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/classifier_cm1.png"/>
+</p>  
 
 
 ## Usage
