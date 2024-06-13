@@ -65,6 +65,7 @@ We not only used various machine learning models to classify the three types of 
 <p align="center">
    <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/classifier_cm1.png"/>
 </p>  
+
 ## Usage
 ### 1. Run ICA
 
