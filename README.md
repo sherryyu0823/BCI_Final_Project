@@ -5,7 +5,7 @@ We aim to explore emotion classification through a brain-computer interface syst
 
 ## Dataset
 ### Experimental Design and Data Collection
-This experiment was designed as a visual stimulation study using fifteen Chinese film clips, which included positive, neutral, and negative emotions as stimuli. Each film clip lasted approximately 4 minutes and was carefully edited to ensure emotional coherence and maximize emotional significance. The experimental procedure included 15 trials, with a 5-second hint before each clip, a 45-second self-assessment period after each clip, and a 15-second rest period. The order of the clips was arranged so that two clips with the same target emotion were not shown consecutively. Participants were required to complete a questionnaire immediately after watching each clip to report their emotional reactions.
+This experiment was designed as a visual stimulation study using fifteen Chinese film clips, which included positive, neutral, and negative emotions as stimuli. Each film clip lasted approximately 4 minutes and was carefully edited to ensure emotional coherence and maximize emotional significance. The experimental procedure included 15 trials, with a 5-second hint before each clip, a 45-second self-assessment period after each clip, and a 15-second rest period. The order of the clips was arranged so that two clips with the same target emotion were not shown consecutively. Participants were required to complete a questionnaire immediately after watching each clip to report their emotional reactions. 
 
 EEG signals and eye movements were collected with the 62-channel ESI NeuroScan System and SMI eye-tracking glasses. The experimental scene and the corresponding EEG electrode placement are shown in the following figures.The EEG cap according to the international 10 - 20 system for 62 channels is shown below:
 
@@ -13,9 +13,13 @@ EEG signals and eye movements were collected with the 62-channel ESI NeuroScan S
    <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/channels.png" width="300" height="300" />
 </p>
 
+We use a dataset named '01-EEG-raw', which contains raw EEG signals in .cnt format with a sampling rate of 1000Hz.
+
 ### Subjects
 Fifteen Chinese subjects (7 males and 8 females; MEAN: 23.27, STD: 2.37) participated in the experiments. To protect personal privacy, we hide their names and indicate each subject with a number from 1 to 15. 1st-5th and 8th-14th subjects (12 subjects) have EEG and eye movement data while the 6th, 7th and 15th subjects only have EEG data.
 
+### Website
+https://bcmi.sjtu.edu.cn/home/seed/seed.html
 
 ## Model Framework
 In our Brain-Computer Interface (BCI) research, we have developed a comprehensive framework that spans from data acquisition to the application of machine learning models. The input mechanism relies on EEG data collected from subjects during experiments. Each subject participates in three sessions, approximately one week apart, resulting in 45 MATLAB (.mat) files. Each subject file contains 16 arrays: 15 arrays hold segmented and preprocessed EEG data from 15 trials per experiment, organized in a channel-by-data format and labeled with emotional tags (0 for negative, 1 for neutral, and 2 for positive).
