@@ -22,7 +22,11 @@ Fifteen Chinese subjects (7 males and 8 females; MEAN: 23.27, STD: 2.37) partici
 https://bcmi.sjtu.edu.cn/home/seed/seed.html
 
 ## Model Framework
-In our Brain-Computer Interface (BCI) research, we have developed a comprehensive framework that spans from data acquisition to the application of machine learning models. The input mechanism relies on EEG data collected from subjects during experiments. Each subject participates in three sessions, approximately one week apart, resulting in 45 MATLAB (.mat) files. Each subject file contains 16 arrays: 15 arrays hold segmented and preprocessed EEG data from 15 trials per experiment, organized in a channel-by-data format and labeled with emotional tags (0 for negative, 1 for neutral, and 2 for positive).
+In our Brain-Computer Interface (BCI) research, we have developed a comprehensive framework that spans from data acquisition to the application of machine learning models. The input mechanism relies on EEG data collected from subjects during experiments. Each subject participates in three sessions, approximately one week apart, resulting in 45 MATLAB (.mat) files. Each subject file contains 16 arrays: 15 arrays hold segmented and preprocessed EEG data from 15 trials per experiment, organized in a channel-by-data format and labeled with emotional tags (0 for negative, 1 for neutral, and 2 for positive). The architecture and components of our BCI system is shown below:
+
+<p align="center">
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/architecture.png"/>
+</p>
 
 For signal preprocessing, we downsampled the EEG data to 256 Hz and applied a bandpass filter ranging from 0 to 75 Hz to isolate relevant frequency components. Independent Component Analysis (ICA) was employed to remove artifacts, ensuring cleaner data for analysis.
 
