@@ -16,7 +16,7 @@ EEG signals and eye movements were collected with the 62-channel ESI NeuroScan S
 We use a dataset named '01-EEG-raw', which contains raw EEG signals in .cnt format with a sampling rate of 1000Hz.
 
 ### Subjects
-Fifteen Chinese subjects (7 males and 8 females; MEAN: 23.27, STD: 2.37) participated in the experiments. To protect personal privacy, we hide their names and indicate each subject with a number from 1 to 15. 1st-5th and 8th-14th subjects (12 subjects) have EEG and eye movement data while the 6th, 7th and 15th subjects only have EEG data.
+Fifteen Chinese subjects (7 males and 8 females; MEAN: 23.27, STD: 2.37) participated in the experiments. To protect personal privacy, we hide their names and indicate each subject with a number from 1 to 15. 1st-5th and 8th-14th subjects (12 subjects) have EEG and eye movement data while the 6th, 7th and 15th subjects only have EEG data. So we utilized data from 12 subjects that include both EEG and eye-tracking data as our dataset.
 
 ### Website
 https://bcmi.sjtu.edu.cn/home/seed/seed.html
