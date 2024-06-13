@@ -23,11 +23,11 @@ In our Brain-Computer Interface (BCI) research, we have developed a comprehensiv
 For signal preprocessing, we downsampled the EEG data to 256 Hz and applied a bandpass filter ranging from 0 to 75 Hz to isolate relevant frequency components. Independent Component Analysis (ICA) was employed to remove artifacts, ensuring cleaner data for analysis.
 
 <p align="center">
-   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/preprocessing.png"/>
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/preprocessing.jpg"/>
 </p>
 
 <p align="center">
-   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/ICA.png"/>
+   <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/ICA.jpg"/>
 </p>
 
 Data segmentation involved extracting EEG segments corresponding to the duration of each movie shown during the experiments, aligning the data with the stimulus for accurate analysis.
