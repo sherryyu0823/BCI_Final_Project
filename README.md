@@ -50,7 +50,12 @@ We not only used various machine learning models to classify the three types of 
 <p align="center">
    <img src="https://github.com/sherryyu0823/BCI_Final_Project/blob/main/Result/RESULT.jpg"/>
 </p>
+## Usage
+### 1. Run ICA
 
+Run the MATLAB code in the 'ICA' folder and download the sample dataset [here](https://drive.google.com/drive/folders/1UPe9xLL4GehK5RHEADTeBqQXAov-Wmnm?usp=drive_link) to run the file titled 'ICLabel_ASR.m'.
+The sample dataset has already undergone ICA, so it can directly perform ICLabel."
+*'ICA_preprocessed.m' performs ICA on raw data (.cnt) and converts it to .set format. The raw data is too large to be upload, so we use the sample dataset that has been processed by 'ICA_preprocessed.m' here.
 ## References
 1. Wei-Long Zheng, and Bao-Liang Lu, Investigating Critical Frequency Bands and Channels for EEG-based Emotion Recognition with Deep Neural Networks, accepted by IEEE Transactions on Autonomous Mental Development (IEEE TAMD) 7(3): 162-175, 2015. [link] [BibTex]
 
